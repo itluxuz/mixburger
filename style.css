@@ -1,0 +1,93 @@
+@font-face {
+  font-family: mix;
+  src: url(Aquino-Demo.ttf);
+  
+  
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+
+}
+main{
+background: no-repeat;
+background: rgb(75,33,119);
+background: linear-gradient(180deg, rgba(75,33,119,1) 35%, rgba(163,94,31,1) 100%);
+
+}
+body{
+height: 100vh;
+
+}
+
+.nst img{
+    width: 60%;
+}
+
+
+
+.logo{
+    width: 150px; 
+    padding-bottom: 30px;
+    
+}
+.main{
+    background-color: #ffffff2b;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 5px #0f0f0f7e;
+    flex-direction: column;
+}
+
+.buyurtma p , .textmanzil{
+font-family: mix;
+text-align: center;
+
+
+}
+
+.buyurtma a {
+    text-decoration: none;
+    color: #fff;
+}
+.buyurtma button{
+    background-color: #Ff9900;
+    font-weight: 600;
+width: 200px;
+height: 40px;
+border: none;
+border-radius: 40px;
+color: #fff;
+
+}
+
+.social a{
+    background: #Ff9900;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #Ffff;
+    font-weight: 700;
+}
+.map{
+    height: 100%;
+}
+
+.map iframe{
+    padding-top: -30px;
+    width: 100%;
+}
+
+.textmanzil{
+    padding-top: 20px;
+}
+.apps img{
+
+}
+
+@media (min-width:600px) {
+    .buyurtma p{
+        font-size: 20px;
+    }
+}
