@@ -78,16 +78,70 @@ color: #fff;
     padding-top: -30px;
     width: 100%;
 }
-
+.text-title {
+    font-size: 25px;
+}
 .textmanzil{
     padding-top: 20px;
 }
+
 .apps img{
+    
 
 }
-
-@media (min-width:600px) {
-    .buyurtma p{
-        font-size: 20px;
+@media (max-width:1000px) {
+    .text-title {
+        font-size: 20px ;
     }
+   
+}
+@media (max-width:900px) {
+.buyurtma button {
+    font-size: 70%;
+}
+}
+@media (max-width:800px) {
+    .text-title {
+        font-size: 15px ;
+    }
+   
+   .buyurtma button{
+width: 150px;
+height: 35px;
+border: none;
+border-radius: 40px;
+
+   }
+    
+}
+@media (max-width:770px) {
+    .text-title {
+        font-size: 10px ;
+    }
+   .buyurtma button{
+width: 120px;
+height: 32px;
+border: none;
+border-radius: 40px;
+   }
+    
+}
+@media (min-width:5540px) {
+    .text-title {
+        font-size: 8px ;
+    }
+     .buyurtma button{
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 40px;
+}
+    .buyurtma button {
+        font-size: px;
+    }
+
+    .socials a{
+        font-size: 70%;
+    }
+    
 }
